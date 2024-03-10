@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="913dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="393dp"
+            android:layout_height="426dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="336dp"
+                android:layout_height="248dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/onboard4" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="301dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="116dp"
+                android:gravity="center_horizontal"
+                android:text="Achieve your hydration goals with a simple tap!"
+                android:textAlignment="center"
+                android:textColor="#625D5D"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="320dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="32dp"
+                android:gravity="center_horizontal"
+                android:text="Track your daily water intake with Us."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="455dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/intro_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="32dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_3"
+                        android:layout_width="282dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center_horizontal"
+                        android:text="Easy to Use – Drink, Tap, Repeat"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.492"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="151dp"
+                        android:layout_height="153dp"
+                        android:layout_marginTop="12dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_3"
+                        app:srcCompat="@drawable/onboard2" />
+
+                    <TextView
+                        android:id="@+id/tv_4"
+                        android:layout_width="268dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="176dp"
+                        android:gravity="center_horizontal"
+                        android:text="Staying hydrated every day is easy with Drops Water Tracker."
+                        android:textAlignment="center"
+                        android:textColor="#BFFFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="normal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.493"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_3" />
+
+                    <Button
+                        android:id="@+id/btn_1"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="255dp"
+                        android:layout_height="49dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/intro_button"
+                        android:gravity="center"
+                        android:text="Let's Get Started"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="#FFFFFF"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_4" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

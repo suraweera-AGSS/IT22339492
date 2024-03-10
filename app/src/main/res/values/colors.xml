@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Color Palette “60-30-10 rule” -->
+
+    <!-- Primary Colors -->
+    <color name="bright_blue">#3898F3</color>
+
+    <!-- Secondary Colors -->
+    <color name="tan_blue">#5DCCFC</color>
+    <color name="s_white">#FFFFFFFF</color>
+
+    <!-- Accent Colors-->
+    <color name="light_orange">#FFBF27</color>
+</resources>
